@@ -31,59 +31,27 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global AI API market is estimated at approximately $44B–$65B in 2025 and projected to reach $83B–$85B by 2026, driven by a ~30–32% CAGR as enterprise generative AI workloads transition from experimental development to production-scale inference and agentic automation. The sector is moderately concentrated among an oligopoly of mega-cap hyperscalers (Microsoft, Alphabet, Amazon) and frontier lab providers (OpenAI, Anthropic) capturing the vast majority of enterprise inference volume, while remaining fragmented across open-weight specialized providers and multi-model gateway architectures.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[OpenAI API](https://platform.openai.com/)**  
-
-  Official API for GPT models, DALL-E, Whisper, and embeddings. Published **OpenAPI specification** serves as the source of truth for generated SDKs. **OpenAI Agents SDK** (March 2025) provides clean agent primitives: **Agents, Handoffs, Guardrails, Tracing, Sessions, and MCP support**—provider-agnostic with 100+ LLMs via Chat Completions API .
-
-
-
-- **[Anthropic API](https://www.anthropic.com/api)**  
-
-  Official API for Claude models. **Claude Agent SDK** (formerly Claude Code SDK) exposes the same agent loop powering Claude Code: **built-in tools** (Read, Write, Edit, Bash, Glob, Grep, WebSearch, WebFetch), **sub-agents via AgentTool**, **hooks for intercepting tool calls**, **permission modes**, and **first-class MCP support** (stdio, SSE, HTTP, in-process) .
-
-
-
-- **[Google Gemini API](https://ai.google.dev/)**  
-
-  Official API for Gemini models. **Google Gen AI SDK** (`google-genai`) reached **General Availability (GA) in May 2025** across Python, JavaScript/TypeScript, Go, and Java—and is now the recommended library . **Legacy libraries** (`google-generativeai`) are no longer maintained and were **deprecated November 30, 2025**, with no access to Live API or Veo . **Google Agent Development Kit (ADK)** provides sequential, parallel, and loop agents with session state, memory, evaluation, and native alignment with Vertex AI, Cloud Run, GKE, BigQuery, and Google Workspace .
-
-
-
-- **[AWS Bedrock](https://aws.amazon.com/bedrock/)**  
-
-  Fully managed service for foundation models from Amazon, Anthropic, Cohere, Meta, Mistral, Stability AI, and others. Features model evaluation, guardrails for safe AI, knowledge bases for RAG, and agents for task automation.
-
-
-
-- **[Cohere Platform](https://cohere.com/)**  
-
-  Official API for Command and Embed models. Supports cloud, on-prem, and VPC deployment for enterprise.
-
-
-
-- **[Mistral AI Platform](https://mistral.ai/)**  
-
-  Official API for Mistral's open-weight models with commercial licensing and deployment flexibility.
-
-
-
-- **[Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service)**  
-
-  Microsoft's managed OpenAI models with enterprise security, compliance, and regional data residency. Accessible via REST APIs or the OpenAI SDK for Python .
+| Company / Product | Description & Capabilities | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service)** | Microsoft's enterprise-managed OpenAI models with security, enterprise compliance, virtual networks, and regional data residency. Accessible via REST APIs and the OpenAI SDK. | **Microsoft**: ~$3.1T Market Cap / $245B+ Annual Revenue | **$0.150 / 1M input tokens** & **$0.600 / 1M output tokens** (GPT-4o-mini standard pay-as-you-go) | **$200 credit** (valid 30 days on Azure Free Trial; requires upgrading subscription to Pay-As-You-Go with $0 spend to unlock 0 TPM default LLM quota limits) |
+| **[AWS Bedrock](https://aws.amazon.com/bedrock/)** | Fully managed foundation model service offering Anthropic Claude, Amazon Nova/Titan, Meta Llama, Mistral, and Cohere with automated guardrails, RAG knowledge bases, and multi-agent routing. | **Amazon**: ~$2.2T Market Cap / $620B+ Annual Revenue | **$0.06 / 1M input tokens** & **$0.24 / 1M output tokens** (Amazon Nova Micro on-demand) | **$100–$200 AWS Promotional Credits** (valid 30 days to 6 months upon account activation/onboarding prompt tasks; no perpetual free tier) |
+| **[Google Gemini API](https://ai.google.dev/)** | Official API for Gemini models via Google AI Studio and Vertex AI. Supported by the unified `google-genai` SDK and Google Agent Development Kit (ADK) across Python, JS/TS, Go, and Java. | **Alphabet**: ~$2.1T Market Cap / $350B+ Annual Revenue | **$0.075 / 1M input tokens** & **$0.30 / 1M output tokens** (Gemini 2.5 Flash / 1.5 Flash paid tier up to 128k prompt context) | **Free Forever Tier**: 15 RPM (requests/min), 1,000,000 TPM (tokens/min), and 1,500 RPD (requests/day) on Gemini Flash models in Google AI Studio |
+| **[OpenAI API](https://platform.openai.com/)** | Industry-standard API powering GPT-4o, GPT-4o-mini, o-series reasoning models, DALL-E, Whisper, and Embeddings. Supported by OpenAI Agents SDK with native MCP and guardrails. | **OpenAI**: ~$157B Valuation (Oct 2024 funding round) / ~$3.7B–$5B Annualized Revenue | **$0.150 / 1M input tokens** & **$0.600 / 1M output tokens** (GPT-4o-mini pay-as-you-go; minimum $5 initial balance deposit) | **Pay-as-you-go only (0 automatic free signup credits)**; requires $5 minimum deposit (Free testing tier available via Researcher Grants up to $1,000 or opt-in training data sharing allocations) |
+| **[Anthropic API](https://www.anthropic.com/api)** | Official API for Claude 3.5/3.7 models (Haiku, Sonnet, Opus). Powers the Claude Agent SDK with built-in sub-agent tools, tool call interception hooks, and first-class Model Context Protocol (MCP) support. | **Anthropic**: ~$60B Valuation (early 2025 / late 2024 funding) / ~$1B+ Annualized Revenue | **$0.80 / 1M input tokens** & **$4.00 / 1M output tokens** (Claude 3.5 Haiku pay-as-you-go) | **$5 one-time free credit** upon phone verification in Anthropic Console (expires upon balance depletion; no perpetual free tier) |
+| **[Mistral AI Platform](https://mistral.ai/)** | Official API (La Plateforme) for European frontier open-weight models including Mistral Large, Mistral Small, Codestral, and Pixtral with Apache-2.0 or commercial license endpoints. | **Mistral AI**: ~$6.2B Valuation / ~$30M+ Annualized Revenue | **$0.10 / 1M input tokens** & **$0.30 / 1M output tokens** (Mistral Small / Codestral serverless pay-as-you-go) | **Free Mode (Experimental Tier)**: Free API access with no credit card required, rate-limited to 1 RPS (request/sec) for personal experimentation and prototyping |
+| **[Cohere Platform](https://cohere.com/)** | Enterprise-focused API platform for Command R+, Command R, Embed v3, and Rerank v3 models. Supports private cloud, on-premises, and VPC enterprise deployments. | **Cohere**: ~$5.5B Valuation / ~$35M+ Annualized Revenue | **$0.15 / 1M input tokens** & **$0.60 / 1M output tokens** (Command R fine-tuned/production pay-as-you-go; Embed from $0.10 / 1M tokens) | **Free Trial Key (Free Forever for Dev)**: Up to 1,000 API calls per month, rate-limited to 20 RPM (Chat) and 5 RPM (Embed) for non-commercial prototyping |
 
 
 
