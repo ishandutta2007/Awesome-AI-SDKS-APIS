@@ -192,3 +192,5 @@ We welcome additions, corrections, and ecosystem updates! Follow these steps:
 <div align="center">
   <b>Curated with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and the Open Source AI Community.</b>
 </div>
+# Awesome-AI-SDKS-APIS
+
