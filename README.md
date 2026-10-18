@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white " alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-SDKS-APIS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-SDKS-APIS?style=for-the-badge&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-SDKS-APIS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-SDKS-APIS?style=for-the-badge&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-SDKS-APIS/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-SDKS-APIS?style=for-the-badge&logo=github&color=teal" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-SDKS-APIS/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -62,7 +62,7 @@ Comprehensive breakdown of leading hosted AI model APIs, sorted in descending or
 
 ## 🔓 Open-Source GitHub Projects (Ranked by ⭐ Stars)
 
-Curated list of the top open-source AI SDKs, gateways, local runtimes, and agent frameworks, **sorted in descending order by GitHub star count**. Each repository badge links directly to its live stargazers page:
+Curated list of the top open-source AI SDKs, gateways, local runtimes, and agent frameworks, **sorted in descending order by GitHub Stars_Count**. Each repository badge links directly to its live stargazers page:
 
 1. **[Ollama](https://github.com/ollama/ollama)** [![Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
    **Get up and running with Llama 3, Mistral, Gemma, and other open LLMs locally** (MIT). Provides a lightweight OpenAI-compatible REST API server and cross-platform CLI for macOS, Windows, and Linux. The most popular tool for local AI development.
@@ -176,7 +176,7 @@ We welcome additions, corrections, and ecosystem updates! Follow these steps:
 
 1. 🍴 **Fork the repository**.
 2. 📝 **Add or update an entry** in `README.md` maintaining alphabetical or star-ranked order.
-3. 🔍 **Ensure data accuracy**: Include verified model token pricing, free tier parameters, and GitHub star badges (`style=social&color=white`).
+3. 🔍 **Ensure data accuracy**: Include verified model token pricing, free tier parameters, and GitHub Stars_Badges (`style=social&color=white`).
 4. 🚀 **Submit a Pull Request** with a descriptive summary of changes.
 
 ---
@@ -185,7 +185,7 @@ We welcome additions, corrections, and ecosystem updates! Follow these steps:
 
 - This directory is a **community-curated index** for informational and engineering purposes—not a paid sponsorship or blanket endorsement.
 - Verify production SLA terms, regional compliance (GDPR, HIPAA, SOC-2), and terms of service before transmitting proprietary or user data through external AI endpoints.
-- Star counts and pricing numbers reflect verified snapshots as of October 2026.
+- Stars_Counts and pricing numbers reflect verified snapshots as of October 2026.
 
 ---
 
